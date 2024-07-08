@@ -1,0 +1,25 @@
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.user-details-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.user-details-content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
