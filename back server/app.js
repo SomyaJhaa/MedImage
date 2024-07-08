@@ -157,7 +157,7 @@ app.post("/forgot-password", async(req,res) => {
           });
           
           var mailOptions = {
-            from: 'youremail@gmail.com',
+            from: '',
             to: email,
             subject: 'Password Reset',
             text: 'You can reset your password by going through this link' + ' : ' + link
